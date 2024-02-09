@@ -1,0 +1,57 @@
+@import url('https://fonts.google.com/specimen/Inter');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'inter';
+    font-size: 14px;
+    background: hsl(0, 0%, 8%);
+    /* max-width: 1440px; */
+}
+.card_holder{
+    background: hsl(0, 0%, 12%);
+    width: 350px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h3{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#green{
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.quote{
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+   
+}
+.card p{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: hsl(0, 0%, 20%) ;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.card p:hover{
+    background:  hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
