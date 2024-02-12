@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Figtree';
+}
+.container{
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    background: hsl(0, 0%, 100%);
+    width: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 5px 5px 5px;
+}
+.image img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+h4{
+    background: hsl(47, 88%, 63%);
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 70px;
+}
+.grey{
+    color: hsl(0, 0%, 50%);
+    padding: 5px;
+    line-height: 1.6;
+}
+.profile{
+    display: flex;
+    margin-top: 10px;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.profile p{
+    font-weight: 600;
+    margin-top: 10px;
+}
