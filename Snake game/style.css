@@ -1,0 +1,29 @@
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    #container {
+        text-align: center;
+      }
+      #gameBoard {
+        border: 3px solid;
+      }
+      #scoreText, #highScoreText{
+        font-family: "sans-serif";
+        font-size: 100px;
+      }
+      #scoreInfo, #highScore{
+        font-family: "sans-serif";
+        font-size: 70px;
+      }
+      #resetBtn, #startBtn {
+        font-family: "sans-serif", cursive;
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+        border: 3px solid;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-right: 20px;
+      }
